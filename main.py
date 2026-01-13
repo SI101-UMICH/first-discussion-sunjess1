@@ -1,5 +1,5 @@
 import requests
-
+#Jessica Sun
 TMDB_API_KEY = "004301d11e9e9683922ff02e21a5c467"
 
 def get_movie(title):
@@ -40,4 +40,5 @@ def get_movie(title):
 if __name__ == "__main__":
     movie = get_movie("Inception")
     print(movie)
+    print(movie["title"])
     print(movie["title"])
